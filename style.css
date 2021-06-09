@@ -5,16 +5,28 @@
 }
 .cont{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 70px;
     background-color: rgb(56, 58, 75);   
+   
 }
 .cont img{
     width: 3%;
     margin-left: 20px;
     cursor: pointer;
     
+}
+.cont select{
+    margin-right: 20px;
+    height: 35px;
+    
+}
+.cont select option{
+    height: 25px;
+
+
 }
 
 main{
